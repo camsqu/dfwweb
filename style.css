@@ -8,11 +8,32 @@ h5 {
   font-size: 25px;
 }
 h2 {
+  font-size: 30px;
   position: relative;
   left: 70px;
-  bottom: 55px;
+  bottom: 65px;
 }
 iframe.steam {
   position: relative;
-  bottom: 50px;
+  bottom: 60px;
+}
+h3 {
+  font-size: 30px;
+  position: relative;
+  left: 65px;
+  bottom: 72px;
+}
+iframe.xbox {
+  position: relative;
+  bottom: 60px;
+}
+h4 {
+  font-size: 30px;
+  position: relative;
+  left: 65px;
+  bottom: 78px;
+}
+iframe.psn {
+  position: relative;
+  bottom: 60px;
 }
