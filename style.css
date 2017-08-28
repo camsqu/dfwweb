@@ -1,7 +1,18 @@
 body {
-  background-color: lightblue;
   font-family: 'arial',sans-serif;
 }
 p {
-  color: gray;
+  font-size: 20px;
+}
+h5 {
+  font-size: 25px;
+}
+h2 {
+  position: relative;
+  left: 70px;
+  bottom: 55px;
+}
+iframe.steam {
+  position: relative;
+  bottom: 50px;
 }
