@@ -43,5 +43,5 @@ img.meme {
   margin: 50px;
 }
 img.xbox:hover {
-  image-orientation: invert;
+  image-orientation: 180deg;
 }
