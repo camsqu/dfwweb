@@ -43,13 +43,17 @@ img.meme {
   margin: 50px;
 }
 @keyframes starter {
-    0%   {background-color: white;} 
-    10%  {background-color: red;}
-    25%  {background-color: yellow;}
+    0%   {background-color: white;
+    left: 0px;}
+    10%  {background-color: red;
+    left: 50px;}
+    25%  {background-color: yellow;
+    left: 180px;}
     50%  {background-color: blue;}
     100% {background-color: green;}
 }
 img.xbox:hover {
+  position: relative;
   animation-name: starter;
   animation-duration: 10s;
 }
