@@ -37,3 +37,8 @@ iframe.psn {
   position: relative;
   bottom: 60px;
 }
+img.meme {
+  padding: 25px;
+  border: 25px solid red;
+  margin: 50px;
+}
