@@ -50,4 +50,5 @@ img.meme {
 }
 img.xbox:hover {
   animation-name: starter;
+  animation-duration: 10s;
 }
