@@ -43,7 +43,8 @@ img.meme {
   margin: 50px;
 }
 @keyframes starter {
-    0%   {background-color: red;}
+    0%   {background-color: white;} 
+    10%  {background-color: red;}
     25%  {background-color: yellow;}
     50%  {background-color: blue;}
     100% {background-color: green;}
