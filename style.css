@@ -48,9 +48,23 @@ img.meme {
     100% {background-color: inherit;
     left: 420px;}
 }
-img {
+@keyframes swipelong {
+    0%   {background-color: white;
+    left: 0px;}
+    100% {background-color: inherit;
+    left: 620px;}
+}
+img.short {
   position: relative;
   animation-name: swipe;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+img.long {
+  position: relative;
+  animation-name: swipelong;
   animation-duration: 3s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
