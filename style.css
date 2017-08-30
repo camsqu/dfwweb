@@ -52,7 +52,7 @@ img.meme {
     0%   {background-color: white;
     left: 0px;}
     100% {background-color: inherit;
-    left: 620px;}
+    left: 600px;}
 }
 img.short {
   position: relative;
