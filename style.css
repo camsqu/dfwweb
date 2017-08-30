@@ -37,11 +37,6 @@ iframe.psn {
   position: relative;
   bottom: 60px;
 }
-img.meme {
-  padding: 25px;
-  border: 25px solid red;
-  margin: 50px;
-}
 @keyframes swipe {
     0%   {background-color: white;
     left: 0px;}
@@ -69,4 +64,12 @@ img.long {
   animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+img.meme:hover {
+  position: relative;
+  padding: 25px;
+  border: 25px solid red;
+  margin: 50px;
+  animation-name: swipe;
+  animation-duration: 5s;
 }
