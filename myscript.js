@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#imagetoggle").click(function() {
-      $("img").slideDown();
-  })
+  $("h1").click(function() {
+      $("p").css("color","red");
+  });
 });
