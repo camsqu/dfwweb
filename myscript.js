@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#p1").click(function() {
-      $(".disappear").toggle();
+  $("#imagetoggle").click(function() {
+      $("img.meme").slidedown();
   })
 });
