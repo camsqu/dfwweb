@@ -66,7 +66,7 @@ img.long {
   animation-direction: alternate;
 }
 img.meme {
-
+display: none;
 }
 img.meme:hover {
   position: relative;
